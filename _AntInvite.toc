@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: _AntInvite
+## Notes: AntInvite block invitation of people.
+## Author: Imperatrice - Northdale
+## Version: 0.2
+## SavedVariables: antinvite_level
+AntInvite.xml

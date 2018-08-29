@@ -1,0 +1,16 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
+	<Script file="AntInvite.lua"/>
+	<Frame name="AntInvite">
+		<Scripts>
+			<OnLoad>
+				AntInvite_OnLoad()
+			</OnLoad>
+			<OnEvent>
+				AntInvite_OnEvent(event,arg1)
+			</OnEvent>
+			<OnUpdate>
+				AntInvite_OnUpdate()
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>
