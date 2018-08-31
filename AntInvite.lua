@@ -27,7 +27,7 @@ function AntInvite_OnEvent(event,arg1)
 			SetWhoToUI(1)
 			SendWho("n-\""..arg1.."\"")
 		end
-	elseif event == "WHO_LIST_UPDATE" and antinvite_engine == "on" then
+	elseif event == "WHO_LIST_UPDATE" and antinvite_engine == "on" and invite_player ~= "" then
 		numWhos, totalCount = GetNumWhoResults();
 		local found = nil
 		for i=1, numWhos do
@@ -47,6 +47,7 @@ function AntInvite_OnEvent(event,arg1)
 			StaticPopup_Hide("PARTY_INVITE"); -- trigger also DeclineGroup();
 			PrintAntInvite("\124cffff0000 Declined: \124cffffff00"..invite_player.."\124r")
 		end
+		invite_player = ""
 	end
 end
 

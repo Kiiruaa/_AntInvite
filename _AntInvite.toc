@@ -2,6 +2,6 @@
 ## Title: _AntInvite
 ## Notes: AntInvite block invitation of people.
 ## Author: Imperatrice - Northdale
-## Version: 0.2
+## Version: 0.3
 ## SavedVariables: antinvite_level
 AntInvite.xml
